@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="PAW-PAW.app/Contents/MacOS/PAW-PAW">
+      <BCSymbolMapName>PAW-PAW.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>PAW-PAW.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>obj/Debug/net6.0-maccatalyst/maccatalyst-x64/mtouch-symbols.list</SymbolFile>
+      <DSymName>PAW-PAW.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/Gabriella/Projects/PAW-PAWSolution/PAW-PAW</SourceProjectPath>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>

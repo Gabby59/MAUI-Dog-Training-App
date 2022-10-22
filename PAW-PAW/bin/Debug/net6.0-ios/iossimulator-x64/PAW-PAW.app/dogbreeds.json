@@ -1,0 +1,216 @@
+[{
+
+       "breed": "Labrador Retriever",
+
+       "breedType": "Purebred",
+
+       "origin": "Canada,USA",
+
+       "popularity": "1",
+
+       "temperament": "Cheerful, Gentle, Friendly, Intelligent",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 7,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_22988_labrador-retriever-300x189.jpg"
+
+   }, {
+
+       "breed": "German Shepard",
+
+       "breedType": "Purebred",
+
+       "origin": "Germany",
+
+       "popularity": "2",
+
+       "temperament": "Corageous, Intelligent, Loyal, Watchful",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 3,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_23188_german-shepherd-dog-300x189.jpg"
+
+   }, {
+
+       "breed": "Golden Retriever",
+
+       "breedType": "Purebred",
+
+       "origin": "United Kingdom",
+
+       "popularity": "3",
+
+       "temperament": "Intelligent, Kind, Friendly, Confident",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 4,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_22980_golden-retriever-300x189.jpg"
+
+   }, {
+
+       "breed": "French Bulldog",
+
+       "breedType": "Purebred",
+
+       "origin": "France, UK",
+
+       "popularity": "4",
+
+       "temperament": "Playful, Sociable, Friendly, Lively, Patient",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 58,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_23150_french-bulldog-300x189.jpg"
+
+
+
+   }, {
+
+       "breed": "Bulldog",
+
+       "breedType": "Purebred",
+
+       "origin": "United Kingdom",
+
+       "popularity": "5",
+
+       "temperament": "Friendly, Docile, Willful, Gregarious",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 77,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_23140_bulldog-300x189.jpg"
+
+
+
+   }, {
+
+       "breed": "Beagle",
+
+       "breedType": "Purebred",
+
+       "origin": "United Kingdom",
+
+       "popularity": "6",
+
+       "temperament": "Gentle", Intelligent, Even Tempered, Determined",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 72,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_23012_beagle-460x290.jpg"
+
+
+
+   }, {
+
+       "breed": "Poodle",
+
+       "breedType": "Purebred",
+
+       "origin": "Germany, France",
+
+       "popularity": "7",
+
+       "temperament": "Intelligent, Faithful, Trainable, Instinctual",
+
+       "hypoallergenic": "Yes",
+
+       "intelligence": 2,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_23200_poodle-300x189.jpg"
+
+
+
+   }, {
+
+       "breed": "Rottweiler",
+
+       "breedType": "Purebred",
+
+       "origin": "Germany",
+
+       "popularity": "8",
+
+       "temperament": "Intelligent, Corageous, Fearless, Confident",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 9,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_22942_rottweiler-460x290.jpg"
+
+
+
+   }, {
+
+       "breed": "German Shorthaired Pointer",
+
+       "breedType": "Purebred",
+
+       "origin": "Germany",
+
+       "popularity": "9",
+
+       "temperament": "Intelligent, Trainable, Boisterous, Cooperative",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 9,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_22976_german-shorthaired-pointer-300x189.jpg"
+
+
+
+   }, {
+
+       "breed": "Yorkshire Terrier",
+
+       "breedType": "Purebred",
+
+       "origin": "United Kingdom",
+
+       "popularity": "10",
+
+       "temperament": "Independent, Intelligent, Corageous, Confident",
+
+       "hypoallergenic": "Yes",
+
+       "intelligence": 27,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_23132_yorkshire-terrier-300x189.jpg"
+
+
+
+   }, {
+
+       "breed": "Boxer",
+
+       "breedType": "Purebred",
+
+       "origin": "Germany",
+
+       "popularity": "11",
+
+       "temperament": "Playful, Friendly, Devoted, Loyal",
+
+       "hypoallergenic": "No",
+
+       "intelligence": 48,
+
+       "photo": "https://dogtime.com/assets/uploads/2011/01/file_22916_boxer-460x290.jpg"
+
+
+
+   }]
+

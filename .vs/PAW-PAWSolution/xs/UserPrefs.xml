@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{BD5D8CD3-46A1-4C9C-9786-B0A06492EDFD}|Default">
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="13.0.0.0" />
+  <MonoDevelop.Ide.ItemProperties.PAW-PAW PreferredExecutionTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="MyAppleMacCatalystID" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="PAW-PAW/DogBreeds.xaml">
+    <Files>
+      <File FileName="PAW-PAW/MainPage.xaml" Line="71" Column="1" />
+      <File FileName="PAW-PAW/ViewModel/DogBreedsVM.cs" Line="42" Column="14" />
+      <File FileName="PAW-PAW/DogBreeds.xaml" Line="8" Column="38" />
+      <File FileName="PAW-PAW/MainPage.xaml.cs" Line="12" Column="29" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PAW-PAWSolution" expanded="True">
+            <Node name="PAW-PAW" expanded="True">
+              <Node name="ViewModel" expanded="True" />
+              <Node name="App.xaml" expanded="True" />
+              <Node name="AppShell.xaml" expanded="True" />
+              <Node name="DogBreeds.xaml" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PAW-PAW</name>
+    </assembly>
+    <members>
+        <member name="F:PAW_PAW.ViewModel.DogBreedsVM.getDogsCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DogBreedsVM.GetDogsCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.DogBreedsVM.GetDogsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DogBreedsVM.GetDogsAsync"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.MainViewModel.buttonTapCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.ButtonTapCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.MainViewModel.ButtonTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.ButtonTap(System.String)"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.MainViewModel.dogSocializingTapCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.DogSocializingTapCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.MainViewModel.DogSocializingTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.DogSocializingTap(System.String)"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.MainViewModel.signUpButtonCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.SignUpButtonCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.MainViewModel.SignUpButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.SignUpButton(System.String)"/>.</summary>
+        </member>
+    </members>
+</doc>
