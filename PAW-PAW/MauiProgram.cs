@@ -23,12 +23,15 @@ public static class MauiProgram
 		builder.Services.AddSingleton<MainPage>();
 		builder.Services.AddSingleton<MainViewModel>();
 
+		builder.Services.AddTransient<Dashboard>();
+		builder.Services.AddTransient<DashboardVM>();
+
         //associate the transient so that the page is created and destroyed each time
         builder.Services.AddTransient<DogBreeds>();
         builder.Services.AddTransient<DogBreedsVM>();
 
-        builder.Services.AddSingleton<UserReg>();
-        builder.Services.AddSingleton<UserRegistrationVM>();
+        builder.Services.AddTransient<UserReg>();
+        builder.Services.AddTransient<UserRegistrationVM>();
 
 
         return builder.Build();

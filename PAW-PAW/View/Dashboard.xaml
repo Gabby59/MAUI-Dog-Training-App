@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PAW_PAW.Dashboard"
+             Title="Dashboard"
+             xmlns:model="clr-namespace:PAW_PAW.Model"
+             xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel"
+             x:DataType="viewmodel:DashboardVM"
+             NavigationPage.HasNavigationBar="False">
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <Label
+                x:Name="UserEmail"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand" />
+
+           
+
+            <Frame Margin="0,35,0,5" Padding="15" CornerRadius="20" BackgroundColor="OrangeRed" Opacity=".60">
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer
+                      Command="{Binding DogSocializingTapCommand}"/>
+                </Frame.GestureRecognizers>
+                <Label
+                        x:DataType="{x:Type x:String}"
+                        HorizontalOptions="Center"
+                        FontFamily="OpenSansRegular" Text="Find out more about dog socialization" FontSize="14" FontAttributes="Italic"/>
+            </Frame> 
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

@@ -27,8 +27,7 @@ namespace PAW_PAW.ViewModel
 
                 return dogList;
 
-            // Online
-
+            // Online request
             var url = "https://raw.githubusercontent.com/Gabby59/PAW-PAW/main/dogbreeds.json";
 
             var response = await httpClient.GetAsync(url);
@@ -60,12 +59,7 @@ namespace PAW_PAW.ViewModel
                 Debug.WriteLine(e);
                 await Shell.Current.DisplayAlert("Error", $"Unable to get dogs right now: {e.Message}", "OK");
 ;            }
-            //finally
-            //{}    
         }
-
-
-
     } 
 }
 

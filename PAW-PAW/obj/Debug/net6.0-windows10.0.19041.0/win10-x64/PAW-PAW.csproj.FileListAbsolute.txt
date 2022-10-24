@@ -345,3 +345,12 @@ C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLite-net.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.batteries_v2.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.nativelibrary.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.core.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\e_sqlite3.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Firebase.Auth.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Newtonsoft.Json.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\clrcompression.dll

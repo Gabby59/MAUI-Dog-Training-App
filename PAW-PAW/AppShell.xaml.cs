@@ -11,6 +11,7 @@ public partial class AppShell : Shell
 		//second, associate it with a type of page 
         Routing.RegisterRoute(nameof(DogBreeds), typeof(DogBreeds));
 		Routing.RegisterRoute(nameof(UserReg), typeof(UserReg));
-	}
+        Routing.RegisterRoute(nameof(Dashboard), typeof(Dashboard));
+    }
 }
 

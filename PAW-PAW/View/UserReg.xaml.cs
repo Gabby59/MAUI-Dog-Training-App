@@ -4,9 +4,10 @@ namespace PAW_PAW;
 
 public partial class UserReg : ContentPage
 {
-	public UserReg(UserRegistrationVM vm)
+	public UserReg()
 	{
 		InitializeComponent();
-		BindingContext = vm;	
-	}
+        BindingContext = new UserRegistrationVM(Navigation);
+
+    }
 }

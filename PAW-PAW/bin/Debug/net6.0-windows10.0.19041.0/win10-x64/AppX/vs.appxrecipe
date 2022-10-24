@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\gabri\source\PAW-PAWSolution %28latest - not working!%29\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-10-20T12:19:21.777</Modified>
+      <Modified>2022-10-24T12:48:33.532</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\gabri\source\PAW-PAWSolution %28latest - not working!%29\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-10-20T12:19:21.510</Modified>
+      <Modified>2022-10-24T12:48:32.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\source\PAW-PAWSolution %28latest - not working!%29\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PAW-PAW.runtimeconfig.json">
       <PackagePath>PAW-PAW.runtimeconfig.json</PackagePath>
-      <Modified>2022-10-17T14:26:47.989</Modified>
+      <Modified>2022-10-24T08:59:01.056</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\source\PAW-PAWSolution %28latest - not working!%29\PAW-PAW\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\PAW-PAW.dll">
       <PackagePath>PAW-PAW.dll</PackagePath>
-      <Modified>2022-10-20T12:19:20.275</Modified>
+      <Modified>2022-10-24T12:48:32.083</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\source\PAW-PAWSolution %28latest - not working!%29\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>PAW-PAW.exe</PackagePath>
-      <Modified>2022-10-20T12:19:20.290</Modified>
+      <Modified>2022-10-24T12:48:32.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.10\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -970,6 +970,10 @@
       <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
       <Modified>2022-08-03T23:09:22.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\firebaseauthentication.net\3.7.2\lib\netstandard1.1\Firebase.Auth.dll">
+      <PackagePath>Firebase.Auth.dll</PackagePath>
+      <Modified>2021-08-05T06:45:32.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\microsoft.extensions.configuration\6.0.1\lib\netstandard2.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
       <Modified>2022-02-24T00:12:18.000</Modified>
@@ -1058,6 +1062,30 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\newtonsoft.json\11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2018-03-24T17:44:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
+      <PackagePath>SQLite-net.dll</PackagePath>
+      <Modified>2021-09-02T21:04:32.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.batteries_v2.dll">
+      <PackagePath>SQLitePCLRaw.batteries_v2.dll</PackagePath>
+      <Modified>2020-09-03T17:13:26.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\sqlitepclraw.bundle_green\2.0.4\lib\netcoreapp3.1\SQLitePCLRaw.nativelibrary.dll">
+      <PackagePath>SQLitePCLRaw.nativelibrary.dll</PackagePath>
+      <Modified>2020-09-03T17:13:02.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\sqlitepclraw.core\2.1.2\lib\netstandard2.0\SQLitePCLRaw.core.dll">
+      <PackagePath>SQLitePCLRaw.core.dll</PackagePath>
+      <Modified>2022-09-18T19:26:48.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\sqlitepclraw.provider.dynamic_cdecl\2.1.2\lib\netstandard2.0\SQLitePCLRaw.provider.dynamic_cdecl.dll">
+      <PackagePath>SQLitePCLRaw.provider.dynamic_cdecl.dll</PackagePath>
+      <Modified>2022-09-18T19:26:54.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\microsoft.graphics.win2d\1.0.3.1\runtimes\win10-x64\native\Microsoft.Graphics.Canvas.dll">
       <PackagePath>Microsoft.Graphics.Canvas.dll</PackagePath>
       <Modified>2022-04-28T15:57:10.000</Modified>
@@ -1066,9 +1094,17 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-07-19T16:53:02.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\runtime.win7-x64.runtime.native.system.io.compression\4.3.0\runtimes\win7-x64\native\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2016-11-05T04:34:54.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\gabri\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
+      <PackagePath>e_sqlite3.dll</PackagePath>
+      <Modified>2020-08-17T14:38:20.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\gabri\source\PAW-PAWSolution %28latest - not working!%29\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\PAW-PAW.deps.json">
       <PackagePath>PAW-PAW.deps.json</PackagePath>
-      <Modified>2022-10-20T12:19:21.682</Modified>
+      <Modified>2022-10-24T12:48:33.356</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\6.0.541\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

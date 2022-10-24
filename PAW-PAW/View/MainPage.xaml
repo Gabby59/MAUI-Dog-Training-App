@@ -6,6 +6,7 @@
              x:DataType="viewmodel:MainViewModel"
              xmlns:model="clr-namespace:PAW_PAW.Model"
              Title="Paw Paw"
+             NavigationPage.HasNavigationBar="False"
              >
 
 <Grid>
@@ -15,21 +16,23 @@
             <Label FontFamily="OpenSansRegular" FontSize="14" Text="Sign in to continue " FontAttributes="Bold,Italic" />
 
         <StackLayout Margin="0,20,0,0">
-             <Label FontFamily="OpenSansRegular" Text="Username" FontSize="14"/>
+             <Label FontFamily="OpenSansRegular" Text="Email" FontSize="14"/>
                 <Grid Margin="0,5,0,5">
                     <Frame BackgroundColor="AliceBlue"/>
-                    <Entry Placeholder="Enter Username" BackgroundColor="Transparent" Margin="5,0,0,0"/>
+                    <Entry Placeholder="Enter Email" BackgroundColor="Transparent" Margin="5,0,0,0"
+                           Text="{Binding UserEmail}"/>
                 </Grid>
 
               <Label FontFamily="OpenSansRegular" Text="Password" FontSize="14"/>
                 <Grid Margin="0,5,0,0">
                     <Frame BackgroundColor="AliceBlue"/> 
-                    <Entry  Placeholder="Enter Password" BackgroundColor="Transparent" IsPassword="True" Margin="5,0,0,0"/>
+                    <Entry  Placeholder="Enter Password" BackgroundColor="Transparent" IsPassword="True" Margin="5,0,0,0"
+                            Text="{Binding UserPassword}"/>
                 </Grid>
         </StackLayout>
 
         <Button Margin="0,15,0,5" Text="Sign In" FontFamily="OpenSansRegular"
-                 Command="{Binding DogSocializingTapCommand}"/>
+                 Command="{Binding SignInButtonCommand}"/>
             
         <Label FontFamily="OpenSansRegular" Text="Forgot Password?" FontSize="10" FlowDirection="RightToLeft"/>
 
@@ -39,19 +42,14 @@
                             Command="{Binding SignUpButtonCommand}"
                             />
 
-            <Frame Margin="0,35,0,5" Padding="15" CornerRadius="20" BackgroundColor="OrangeRed" Opacity=".60">
-                <Frame.GestureRecognizers>
-                    <TapGestureRecognizer
-                      Command="{Binding DogSocializingTapCommand}"/>
-                </Frame.GestureRecognizers>
-                <Label
-                  
-                        x:DataType="{x:Type x:String}"
-                        HorizontalOptions="Center"
-                        FontFamily="OpenSansRegular" Text="Find out more about dog socialization" FontSize="14" FontAttributes="Italic"/>
-            </Frame>        
-         
-    </StackLayout>
+
+            <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
+                            Text="Go to Dashboard" 
+                            BackgroundColor="DarkCyan"
+                            Command="{Binding ButtonTapCommand}"
+                            />
+
+        </StackLayout>
 </Grid>
 
 </ContentPage>
