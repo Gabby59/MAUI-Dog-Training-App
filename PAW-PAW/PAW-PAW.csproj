@@ -59,6 +59,7 @@
 
 	<ItemGroup>
 	  <None Remove="CommunityToolkit.Mvvm" />
+	  <None Remove="Resources\Images\doggiewithleash.jpeg" />
 	  <None Remove="ViewModel\" />
 	  <None Remove="Model\" />
 	  <None Remove="Services\" />
@@ -73,6 +74,9 @@
 	</ItemGroup>
 	<ItemGroup>
 	  <MauiXaml Update="View\Dashboard.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\Journal.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\UserReg.xaml">

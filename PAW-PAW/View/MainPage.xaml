@@ -8,6 +8,7 @@
              Title="Paw Paw"
              NavigationPage.HasNavigationBar="False"
              >
+    <ScrollView>
 
 <Grid>
         <StackLayout Margin="10">
@@ -51,6 +52,7 @@
 
         </StackLayout>
 </Grid>
+    </ScrollView>
 
 </ContentPage>
  

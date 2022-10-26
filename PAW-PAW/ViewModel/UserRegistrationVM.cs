@@ -10,14 +10,17 @@ namespace PAW_PAW.ViewModel
 {
     public partial class UserRegistrationVM : ObservableObject
     {
+        [ObservableProperty]
+        string email;
+
+        [ObservableProperty]
+        string password;
+
         //Navigatio interface
         private INavigation Navigation;
 
         //firebase api key
         public string firebaseWebAPI = "\r\nAIzaSyCp22DLkkhFk8Z7YmI8bLOFyGX7eXSkyMk";
-
-        public string Email { get; set; }
-        public string Password { get; set; }
 
         public Command RegisterUser { get; }
 

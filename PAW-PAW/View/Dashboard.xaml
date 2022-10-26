@@ -2,20 +2,48 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAW_PAW.Dashboard"
-             Title="Dashboard"
-             xmlns:model="clr-namespace:PAW_PAW.Model"
              xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel"
              x:DataType="viewmodel:DashboardVM"
-             NavigationPage.HasNavigationBar="False">
-    
+            >
+
+
+    <ContentPage.MenuBarItems>
+
+        <MenuBarItem Text="Puppy's Age">
+            <MenuFlyoutItem Text="7-8 Weeks Old"
+                            Clicked="MenuFlyoutItem_7_8Weeks_Clicked" />
+            <MenuFlyoutItem Text="8-10 Weeks Old"
+                            Clicked="MenuFlyoutItem_8_10Weeks_Clicked"   />
+            <MenuFlyoutItem Text="10-12 Weeks Old"
+                            Clicked="MenuFlyoutItem_10_12Weeks_Clicked"/>
+            <MenuFlyoutItem Text="12-16 Weeks Old"
+                            Clicked="MenuFlyoutItem_12_16Weeks_Clicked" />
+            <MenuFlyoutItem Text="6 Months Old"
+                            Clicked="MenuFlyoutItem_6Months_Clicked"
+                                CommandParameter="Berlin"/>
+        </MenuBarItem>
+
+        <MenuBarItem Text="Training Progress">
+            <MenuFlyoutItem Text="Journal"
+                            Clicked="MenuFlyoutItem_Journal_Clicked" />
+            <MenuFlyoutItem Text=" Other Useful Tips"
+                            Clicked="MenuFlyoutItem_Tips_Clicked"/>
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+
     <ContentPage.Content>
+
+
+        <Label Text="Welcome to Dashboard" FontSize="25"
+                 HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand"/>
+        <!-- Ignore Text attribute 
         <StackLayout>
             <Label
                 x:Name="UserEmail"
                 HorizontalOptions="CenterAndExpand"
                 VerticalOptions="CenterAndExpand" />
-
-           
 
             <Frame Margin="0,35,0,5" Padding="15" CornerRadius="20" BackgroundColor="OrangeRed" Opacity=".60">
                 <Frame.GestureRecognizers>
@@ -29,6 +57,9 @@
             </Frame> 
 
         </StackLayout>
+        
+        -->
+        
     </ContentPage.Content>
 
 </ContentPage>

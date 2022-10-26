@@ -1,4 +1,6 @@
-﻿namespace PAW_PAW;
+﻿using PAW_PAW.View;
+
+namespace PAW_PAW;
 
 public partial class AppShell : Shell
 {
@@ -12,6 +14,7 @@ public partial class AppShell : Shell
         Routing.RegisterRoute(nameof(DogBreeds), typeof(DogBreeds));
 		Routing.RegisterRoute(nameof(UserReg), typeof(UserReg));
         Routing.RegisterRoute(nameof(Dashboard), typeof(Dashboard));
+		Routing.RegisterRoute(nameof(View.Journal), typeof(Journal));
     }
 }
 

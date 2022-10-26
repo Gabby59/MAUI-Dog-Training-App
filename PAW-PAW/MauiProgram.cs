@@ -33,6 +33,9 @@ public static class MauiProgram
         builder.Services.AddTransient<UserReg>();
         builder.Services.AddTransient<UserRegistrationVM>();
 
+		builder.Services.AddSingleton<View.Journal>();
+		builder.Services.AddTransient<JournalVM>();	
+
 
         return builder.Build();
 	}

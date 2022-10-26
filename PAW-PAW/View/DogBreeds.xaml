@@ -8,15 +8,12 @@
              x:DataType="viewmodel:DogBreedsVM"
              >
 
-
     <!-- * * - fill the space 50% 50% -->
 
     <Grid ColumnDefinitions="*,*"        
-      ColumnSpacing="10"
-      RowDefinitions="*,Auto"
+          ColumnSpacing="10"
+          RowDefinitions="*,Auto"
           RowSpacing="5">
-
-
 
         <CollectionView 
             Grid.ColumnSpan="2"
@@ -25,24 +22,29 @@
             <!-- bind the item source to the list of dog items -->
 
             <CollectionView.EmptyView>
-                <StackLayout Margin="20">
-                    <Image Source="provisional_logo.jpeg" HeightRequest="160" WidthRequest="160"/>
-                    <Label HorizontalOptions="Center" Margin="0,5,0,5" FontFamily="OpenSansRegular" FontAttributes="Bold" FontSize="26" TextColor="MediumPurple" Text="Let's make some friends"/>
+              
+                    <Grid Padding="5" BackgroundColor="AliceBlue" IsClippedToBounds="True">
+                        <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                        <Label HorizontalOptions="Center" FontFamily="Helvetica" FontAttributes="Bold" FontSize="Subtitle" TextColor="MediumPurple"  Text="Here are some tips to support you on this journey"/>
+                        <Image Margin="20" Source="doggiewithleash.jpeg" HeightRequest="200" WidthRequest="3500" BackgroundColor="DarkCyan"/>
+         
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Set your dog up for success" FontAttributes="Bold"/>
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Ahead of training sessions, make sure their mental and physical needs are being met. That usually looks like plenty of exercise and an enriching environment that's full of things that your dog enjoys interacting with and experiencing."/>
+                     
 
-                    <Label HorizontalTextAlignment="Center" Margin="28" FontFamily="OpenSansRegular" FontSize="18" TextColor="OrangeRed" Text=" Top10 Benefits of Dog Socialization " FontAttributes="Bold" />
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose the right environment" FontAttributes="Bold"/>
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="When first starting out, your dog will need more quiet locations that are free from distractions. As he gets more experienced with the skill, you'll progress to outdoors."/>
 
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="1. Reduce fear and anxiety"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="2. Maintains positive mental health"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="3. Better response to vet visits"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="4. Exercise Options"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="5. Easy to groom"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="6. Easy to travel"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="7. Adapt to nre environments"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="8. Reduces aggresion and negative behaviours"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="9. Promotes longetivety"/>
-                    <Label HorizontalTextAlignment="Start" Margin="20,0,0,10" FontFamily="OpenSansRegular" FontSize="14" Text="10. Cordial relationships"/>
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Sequence your learning and keep training sessions short and sweet" FontAttributes="Bold"/>
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Keep your training sessions from 5-15 minutes so your dog remains focused. End your training on a good note, so you and your dog come back the next day wanting more!"/>
 
-                </StackLayout>
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose rewards that matter to your dog" FontAttributes="Bold"/>
+                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Know what rewards matter to your dog. Just because you think your dog should like it, doesn't mean he will! Make a list of different food rewards in an awesomeness hierarchy for use in training."/>
+
+                       
+                    </StackLayout>
+                    </Grid>
+               
             </CollectionView.EmptyView>
 
             <CollectionView.ItemTemplate>

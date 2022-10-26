@@ -4,11 +4,59 @@
         <name>PAW-PAW</name>
     </assembly>
     <members>
+        <member name="F:PAW_PAW.ViewModel.DashboardVM.dogSocializingTapCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DashboardVM.DogSocializingTapCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.DashboardVM.DogSocializingTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DashboardVM.DogSocializingTap(System.String)"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.DashboardVM.journalCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DashboardVM.JournalCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.DashboardVM.JournalCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DashboardVM.Journal(System.String)"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.DashboardVM.weeksCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DashboardVM.WeeksCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.DashboardVM.WeeksCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DashboardVM.Weeks(System.String)"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.DashboardVM.weeks8_10Command">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DashboardVM.Weeks8_10Command"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.DashboardVM.Weeks8_10Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DashboardVM.Weeks8_10(System.String)"/>.</summary>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.DashboardVM.weeks10_12Command">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DashboardVM.Weeks10_12Command"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.DashboardVM.Weeks10_12Command">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DashboardVM.Weeks10_12(System.String)"/>.</summary>
+        </member>
         <member name="F:PAW_PAW.ViewModel.DogBreedsVM.getDogsCommand">
             <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.DogBreedsVM.GetDogsCommand"/>.</summary>
         </member>
         <member name="P:PAW_PAW.ViewModel.DogBreedsVM.GetDogsCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.DogBreedsVM.GetDogsAsync"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.JournalVM.Note">
+            <inheritdoc cref="F:PAW_PAW.ViewModel.JournalVM.note"/>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.JournalVM.Notes">
+            <inheritdoc cref="F:PAW_PAW.ViewModel.JournalVM.notes"/>
+        </member>
+        <member name="F:PAW_PAW.ViewModel.JournalVM.addCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.JournalVM.AddCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.JournalVM.AddCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.JournalVM.Add"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.MainViewModel.UserEmail">
+            <inheritdoc cref="F:PAW_PAW.ViewModel.MainViewModel.userEmail"/>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.MainViewModel.UserPassword">
+            <inheritdoc cref="F:PAW_PAW.ViewModel.MainViewModel.userPassword"/>
         </member>
         <member name="F:PAW_PAW.ViewModel.MainViewModel.signInButtonCommand">
             <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.SignInButtonCommand"/>.</summary>
@@ -16,23 +64,23 @@
         <member name="P:PAW_PAW.ViewModel.MainViewModel.SignInButtonCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.SignInButton(System.Object)"/>.</summary>
         </member>
+        <member name="F:PAW_PAW.ViewModel.MainViewModel.signUpButtonCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.SignUpButtonCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.MainViewModel.SignUpButtonCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.SignUpButton(System.String)"/>.</summary>
+        </member>
         <member name="F:PAW_PAW.ViewModel.MainViewModel.buttonTapCommand">
             <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.ButtonTapCommand"/>.</summary>
         </member>
         <member name="P:PAW_PAW.ViewModel.MainViewModel.ButtonTapCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.ButtonTap(System.String)"/>.</summary>
         </member>
-        <member name="F:PAW_PAW.ViewModel.MainViewModel.dogSocializingTapCommand">
-            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.DogSocializingTapCommand"/>.</summary>
+        <member name="P:PAW_PAW.ViewModel.UserRegistrationVM.Email">
+            <inheritdoc cref="F:PAW_PAW.ViewModel.UserRegistrationVM.email"/>
         </member>
-        <member name="P:PAW_PAW.ViewModel.MainViewModel.DogSocializingTapCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.DogSocializingTap(System.String)"/>.</summary>
-        </member>
-        <member name="F:PAW_PAW.ViewModel.MainViewModel.signUpButtonCommand">
-            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.MainViewModel.SignUpButtonCommand"/>.</summary>
-        </member>
-        <member name="P:PAW_PAW.ViewModel.MainViewModel.SignUpButtonCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.SignUpButton(System.String)"/>.</summary>
+        <member name="P:PAW_PAW.ViewModel.UserRegistrationVM.Password">
+            <inheritdoc cref="F:PAW_PAW.ViewModel.UserRegistrationVM.password"/>
         </member>
         <member name="F:PAW_PAW.ViewModel.UserRegistrationVM.createAccountCommand">
             <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.UserRegistrationVM.CreateAccountCommand"/>.</summary>
