@@ -60,6 +60,7 @@ namespace PAW_PAW.ViewModel
                 await Shell.Current.DisplayAlert("Error", $"Unable to get dogs right now: {e.Message}", "OK");
 ;            }
         }
+
     } 
 }
 

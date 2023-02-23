@@ -9,12 +9,12 @@ namespace PAW_PAW.Model
 {
 
     // annotate the users class with the [Table] attribute, "Paw-Paw User" table name
-    [Table("Paw-Paw Users")]
+  //  [Table("Paw-Paw Users")]
     public class User
     {
         //set the id as PK
-        [PrimaryKey, AutoIncrement]
-        public int Id { get; set; }
+     //   [PrimaryKey, AutoIncrement]
+       // public int Id { get; set; }
 
         //set the username as unique value, max 250
         [MaxLength(250), Unique]

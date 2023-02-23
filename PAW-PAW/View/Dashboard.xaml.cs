@@ -5,43 +5,51 @@ namespace PAW_PAW;
 
 public partial class Dashboard : ContentPage
 {
-    public Dashboard (DashboardVM vm)
+
+    public Dashboard ()
     {
         InitializeComponent();
-        BindingContext = vm;
+       //BindingContext = vm;
+       BindingContext = new DashboardVM();
     }
+
 
     private async void MenuFlyoutItem_7_8Weeks_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(View.Journal));
+        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
 
     private async void MenuFlyoutItem_8_10Weeks_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(View.Journal));
+        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
     private async void MenuFlyoutItem_10_12Weeks_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(View.Journal));
+        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
     private async void MenuFlyoutItem_12_16Weeks_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(View.Journal));
+        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
     private async void MenuFlyoutItem_6Months_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(View.Journal));
+        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
 
     private async void MenuFlyoutItem_Journal_Clicked(object sender, EventArgs e)
     {
-        await Shell.Current.GoToAsync(nameof(View.Journal));
+        await Shell.Current.GoToAsync(nameof(Journal));
     }
 
     private async void MenuFlyoutItem_Tips_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync(nameof(DogBreeds));
     }
+
+
+}
+
+
 
 
 
@@ -60,4 +68,3 @@ public partial class Dashboard : ContentPage
         UserEmail.Text = userInfo.User.Email;
     }
     */
-}

@@ -1,4 +1,4 @@
-namespace PAW_PAW.View;
+namespace PAW_PAW;
 
 public partial class Journal : ContentPage
 {

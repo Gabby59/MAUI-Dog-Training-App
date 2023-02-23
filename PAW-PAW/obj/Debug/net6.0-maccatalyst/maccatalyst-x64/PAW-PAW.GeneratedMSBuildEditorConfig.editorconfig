@@ -5,6 +5,7 @@ build_property.UsingMicrosoftNETSdkWeb =
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = false
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PAW_PAW
 build_property.ProjectDir = C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\
@@ -56,6 +57,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = PAW_PAW.View.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\MainPage.xaml
+
+[C:/Users/gabri/source/PAW-PAWSolution (latest - not working\!)/PAW-PAW/View/TrainingSection.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = PAW_PAW.View.TrainingSection.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TrainingSection.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TrainingSection.xaml
 
 [C:/Users/gabri/source/PAW-PAWSolution (latest - not working\!)/PAW-PAW/View/UserReg.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

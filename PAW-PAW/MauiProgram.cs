@@ -1,5 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
-
+using PAW_PAW.View;
 using PAW_PAW.ViewModel;
 
 namespace PAW_PAW;
@@ -18,7 +18,7 @@ public static class MauiProgram
 			});
 
 
-		//register the pages in our program (similar to Manifest?)
+		//register the pages in our program
 
 		builder.Services.AddSingleton<MainPage>();
 		builder.Services.AddSingleton<MainViewModel>();
@@ -33,8 +33,11 @@ public static class MauiProgram
         builder.Services.AddTransient<UserReg>();
         builder.Services.AddTransient<UserRegistrationVM>();
 
-		builder.Services.AddSingleton<View.Journal>();
-		builder.Services.AddTransient<JournalVM>();	
+		builder.Services.AddSingleton<Journal>();
+		builder.Services.AddTransient<JournalVM>();
+
+		builder.Services.AddSingleton<TrainingSection>();
+		builder.Services.AddTransient<TrainingSectionVM>();
 
 
         return builder.Build();

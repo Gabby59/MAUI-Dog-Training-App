@@ -539,3 +539,5 @@ C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\PAW-PAW.pdb
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\PAW-PAW.genruntimeconfig.cache
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\ref\PAW-PAW.dll
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dashboard.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\doggiewithleash.jpeg

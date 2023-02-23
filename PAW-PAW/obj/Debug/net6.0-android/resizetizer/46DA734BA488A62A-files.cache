@@ -1,4 +1,13 @@
-﻿obj\Debug\net6.0-android\resizetizer\r\drawable\provisional_logo.jpeg
+﻿obj\Debug\net6.0-android\resizetizer\r\drawable\dashboard.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\dash_10_12w.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\dash_3_4m.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\dash_4_6m.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\dash_6m_1y.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\dash_8_10w.png
+obj\Debug\net6.0-android\resizetizer\r\drawable\doggiewithleash.jpeg
+obj\Debug\net6.0-android\resizetizer\r\drawable\provisional_logo.jpeg
+obj\Debug\net6.0-android\resizetizer\r\drawable\sit_training.gif
+obj\Debug\net6.0-android\resizetizer\r\drawable\training_8_10_weeks.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\dotnet_bot.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-hdpi\splash.png
 obj\Debug\net6.0-android\resizetizer\r\drawable-mdpi\dotnet_bot.png

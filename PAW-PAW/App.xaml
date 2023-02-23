@@ -11,5 +11,40 @@
             </ResourceDictionary.MergedDictionaries>
         </ResourceDictionary>
     </Application.Resources>
+
+
+    <!--        not useful because it will apply it straight from main page, plus the button is not working? - sorted out teh button - needed Shell.Current.Navigation.PushAsyn      -->
+
+    <Application.MainPage>
+        <Shell>
+            <TabBar>
+                <Tab Title="Main Page" >
+                    <ShellContent
+                       Shell.NavBarIsVisible="True"
+                        ContentTemplate="{DataTemplate local:MainPage}" />
+                </Tab>
+                <Tab Title="Dashboard" >
+                    <ShellContent
+                        Shell.NavBarIsVisible="True"
+                        ContentTemplate="{DataTemplate local:Dashboard}" />
+                </Tab>
+                <Tab Title="Journal" >
+                    <ShellContent
+                     
+                        ContentTemplate="{DataTemplate local:Journal}" />
+                </Tab>
+                <Tab Title="Tips and Tools">
+                    <ShellContent 
+                        Shell.NavBarIsVisible="True"
+                        ContentTemplate="{DataTemplate local:DogBreeds}" />
+                </Tab>
+            </TabBar>
+        </Shell>
+        
+    </Application.MainPage>
+
+
+
+
 </Application>
 

@@ -1,4 +1,5 @@
 ﻿//using Android.Views;
+using PAW_PAW.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,7 +20,7 @@ namespace PAW_PAW.ViewModel
         [RelayCommand]
         async Task Journal(string s)
         {
-            await Shell.Current.GoToAsync(nameof(View.Journal));
+            await Shell.Current.GoToAsync(nameof(Journal));
         }
 
         [RelayCommand]
@@ -41,15 +42,5 @@ namespace PAW_PAW.ViewModel
         {
             await Shell.Current.GoToAsync(nameof(DogBreeds));
         }
-
-
-        private void MenuJournal_Clicked(object sender, EventArgs e)
-        {
-            // await Shell.Current.GoToAsync(nameof(View.Journal));
-           // DisplayAlert
-          //  Display("Hola", "This is a ttrial", "Vale");
-        }
-
-
     }
 }

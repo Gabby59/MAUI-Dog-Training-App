@@ -25,8 +25,8 @@ namespace PAW_PAW.ViewModel
             if(string.IsNullOrWhiteSpace(Note))
                 return;
 
-            Notes.Add(Note);
             //add note 
+            Notes.Add(Note);
             Note = string.Empty;
 
         }

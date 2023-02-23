@@ -2,13 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAW_PAW.DogBreeds"
-             Title="It's a dog's world"
              xmlns:model="clr-namespace:PAW_PAW.Model"
              xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel"
              x:DataType="viewmodel:DogBreedsVM"
              >
 
-    <!-- * * - fill the space 50% 50% -->
+ 
 
     <Grid ColumnDefinitions="*,*"        
           ColumnSpacing="10"
@@ -22,15 +21,16 @@
             <!-- bind the item source to the list of dog items -->
 
             <CollectionView.EmptyView>
-              
-                    <Grid Padding="5" BackgroundColor="AliceBlue" IsClippedToBounds="True">
-                        <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Grid 
+                    Padding="5" BackgroundColor="AliceBlue" IsClippedToBounds="True">
+
+                    <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
                         <Label HorizontalOptions="Center" FontFamily="Helvetica" FontAttributes="Bold" FontSize="Subtitle" TextColor="MediumPurple"  Text="Here are some tips to support you on this journey"/>
-                        <Image Margin="20" Source="doggiewithleash.jpeg" HeightRequest="200" WidthRequest="3500" BackgroundColor="DarkCyan"/>
-         
+                        <Image Margin="20" Source="doggiewithleash.jpeg" HeightRequest="180" HorizontalOptions="FillAndExpand"  BackgroundColor="LightSeaGreen"/>
+
+
                         <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Set your dog up for success" FontAttributes="Bold"/>
                         <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Ahead of training sessions, make sure their mental and physical needs are being met. That usually looks like plenty of exercise and an enriching environment that's full of things that your dog enjoys interacting with and experiencing."/>
-                     
 
                         <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose the right environment" FontAttributes="Bold"/>
                         <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="When first starting out, your dog will need more quiet locations that are free from distractions. As he gets more experienced with the skill, you'll progress to outdoors."/>
@@ -41,10 +41,10 @@
                         <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose rewards that matter to your dog" FontAttributes="Bold"/>
                         <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Know what rewards matter to your dog. Just because you think your dog should like it, doesn't mean he will! Make a list of different food rewards in an awesomeness hierarchy for use in training."/>
 
-                       
+
                     </StackLayout>
-                    </Grid>
-               
+                </Grid>
+
             </CollectionView.EmptyView>
 
             <CollectionView.ItemTemplate>
@@ -56,7 +56,7 @@
                                 <Image BackgroundColor="DarkCyan"
                                     Source="{Binding photo}"
                                    HeightRequest="90"
-                                   WidthRequest="147" 
+                                   WidthRequest="149" 
                                   />
                                 <VerticalStackLayout Margin="20" VerticalOptions="Center">
                                     <Label Text="{Binding Breed}" FontSize="16" FontAttributes="Bold" />
@@ -76,9 +76,11 @@
 
         <!-- button to bind to the GetDogs command from the DogBreedsVM -->
         <Button Margin="8"
-                Text="Check out different dog breeds"
+                Text="Check out different dog breeds personalities"
                 Command="{Binding GetDogsCommand}"
                 HorizontalOptions="Center"
+                BackgroundColor="Orange"
+                TextColor="Black"
                 Grid.Row="1"
                 Grid.ColumnSpan="2"
                 Opacity="0.9"

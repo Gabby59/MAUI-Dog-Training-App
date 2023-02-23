@@ -76,6 +76,12 @@
         <member name="P:PAW_PAW.ViewModel.MainViewModel.ButtonTapCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.MainViewModel.ButtonTap(System.String)"/>.</summary>
         </member>
+        <member name="F:PAW_PAW.ViewModel.TrainingSectionVM.journalTapCommand">
+            <summary>The backing field for <see cref="P:PAW_PAW.ViewModel.TrainingSectionVM.JournalTapCommand"/>.</summary>
+        </member>
+        <member name="P:PAW_PAW.ViewModel.TrainingSectionVM.JournalTapCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:PAW_PAW.ViewModel.TrainingSectionVM.JournalTap(System.String)"/>.</summary>
+        </member>
         <member name="P:PAW_PAW.ViewModel.UserRegistrationVM.Email">
             <inheritdoc cref="F:PAW_PAW.ViewModel.UserRegistrationVM.email"/>
         </member>

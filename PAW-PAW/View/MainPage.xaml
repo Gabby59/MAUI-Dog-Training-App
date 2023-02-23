@@ -5,9 +5,9 @@
              xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel"
              x:DataType="viewmodel:MainViewModel"
              xmlns:model="clr-namespace:PAW_PAW.Model"
-             Title="Paw Paw"
-             NavigationPage.HasNavigationBar="False"
-             >
+             Title="Paw Paw - Train your Dog"
+        >
+
     <ScrollView>
 
 <Grid>
@@ -34,21 +34,23 @@
 
         <Button Margin="0,15,0,5" Text="Sign In" FontFamily="OpenSansRegular"
                  Command="{Binding SignInButtonCommand}"/>
-            
-        <Label FontFamily="OpenSansRegular" Text="Forgot Password?" FontSize="10" FlowDirection="RightToLeft"/>
 
+                <Label FontFamily="OpenSansRegular" Text="Forgot Password?" FontSize="10" FlowDirection="RightToLeft"/>
 
-            <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
-                            Text="NEW here? Create an account" 
-                            Command="{Binding SignUpButtonCommand}"
+                <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
+                        Text="NEW here? Create an account" 
+                        Clicked="NewAccount_Button_Clicked"
                             />
 
-
+                <!--    Command="{Binding SignUpButtonCommand}" -->
+            
             <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
                             Text="Go to Dashboard" 
                             BackgroundColor="DarkCyan"
-                            Command="{Binding ButtonTapCommand}"
-                            />
+                    Command="{Binding ButtonTapCommand}"
+                      />
+               
+                          
 
         </StackLayout>
 </Grid>

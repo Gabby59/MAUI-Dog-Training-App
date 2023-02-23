@@ -46,44 +46,53 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Compile Remove="ViewModel\BaseVM.cs" />
-	  <Compile Remove="ViewModel\RegistrationVM.cs" />
-	  <Compile Remove="View\NewPage1.xaml.cs" />
-	  <Compile Remove="View\Registration.xaml.cs" />
+		<MauiImage Remove="Resources\Images\dashboard.jpeg" />
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Remove="View\NewPage1.xaml" />
-	  <MauiXaml Remove="View\Registration.xaml" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="CommunityToolkit.Mvvm" />
-	  <None Remove="Resources\Images\doggiewithleash.jpeg" />
-	  <None Remove="ViewModel\" />
-	  <None Remove="Model\" />
-	  <None Remove="Services\" />
-	  <None Remove="System.Text.Json" />
-	</ItemGroup>
-	<ItemGroup>
-	  <PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
-	  <PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
-	  <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
-	  <PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.2" />
-	  <PackageReference Include="System.Text.Json" Version="6.0.6" />
+		<None Remove="CommunityToolkit.Mvvm" />
+		<None Remove="Resources\Images\dashboard.jpeg" />
+		<None Remove="Resources\Images\dashboard.png" />
+		<None Remove="Resources\Images\dash_10_12W.png" />
+		<None Remove="Resources\Images\dash_3_4M.png" />
+		<None Remove="Resources\Images\dash_4_6M.png" />
+		<None Remove="Resources\Images\dash_6M_1Y.png" />
+		<None Remove="Resources\Images\dash_8_10W.png" />
+		<None Remove="Resources\Images\doggiewithleash.jpeg" />
+		<None Remove="Resources\Images\sit_training.gif" />
+		<None Remove="Resources\Images\training_8_10_weeks.png" />
+		<None Remove="ViewModel\" />
+		<None Remove="Model\" />
+		<None Remove="Services\" />
+		<None Remove="System.Text.Json" />
 	</ItemGroup>
 	<ItemGroup>
-	  <MauiXaml Update="View\Dashboard.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\Journal.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\UserReg.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\DogBreeds.xaml">
-	    <SubType></SubType>
-	  </MauiXaml>
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+		<PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
+		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
+		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.2" />
+		<PackageReference Include="System.Text.Json" Version="6.0.6" />
+	</ItemGroup>
+	<ItemGroup>
+		<Compile Update="View\TrainingSection.xaml.cs">
+			<DependentUpon>TrainingSection.xaml</DependentUpon>
+		</Compile>
+	</ItemGroup>
+	<ItemGroup>
+		<MauiXaml Update="View\Dashboard.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="View\Journal.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="View\TrainingSection.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="View\UserReg.xaml">
+			<Generator>MSBuild:Compile</Generator>
+		</MauiXaml>
+		<MauiXaml Update="View\DogBreeds.xaml">
+			<SubType></SubType>
+		</MauiXaml>
 	</ItemGroup>
 </Project>
