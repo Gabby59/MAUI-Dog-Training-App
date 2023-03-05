@@ -62,7 +62,6 @@
                                     <Label Text="{Binding Breed}" FontSize="16" FontAttributes="Bold" />
                                     <Label Margin="0,2,0,5" Text="{Binding origin}" FontSize="11" FontAttributes="Italic"/>
                                     <Label Margin="0,5,0,0"  Text="{Binding temperament}" FontSize="13" FontAttributes="Bold"/>
-
                                 </VerticalStackLayout>
 
                             </HorizontalStackLayout>

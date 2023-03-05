@@ -7,16 +7,16 @@ public partial class MainPage : ContentPage
 
 	public MainPage()
 	{
-		// InitializeComponent();
+		 InitializeComponent();
 
       BindingContext = new MainViewModel(Navigation);
     }
 
 	private async void NewAccount_Button_Clicked(object sender, EventArgs e)
 	{
-        await Shell.Current.Navigation.PushAsync(new UserReg());
+       // await Shell.Current.Navigation.PushAsync(new UserReg());
 
-       // Shell.Current.GoToAsync(nameof(UserReg));
+       await Shell.Current.GoToAsync(nameof(UserReg));
 
     }
 

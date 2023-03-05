@@ -15,6 +15,7 @@
 
     <!--        not useful because it will apply it straight from main page, plus the button is not working? - sorted out teh button - needed Shell.Current.Navigation.PushAsyn      -->
 
+    <!--  
     <Application.MainPage>
         <Shell>
             <TabBar>
@@ -40,11 +41,9 @@
                 </Tab>
             </TabBar>
         </Shell>
-        
+
     </Application.MainPage>
-
-
-
-
+ -->
+   
 </Application>
 

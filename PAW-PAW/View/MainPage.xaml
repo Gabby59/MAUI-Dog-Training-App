@@ -40,7 +40,11 @@
                 <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
                         Text="NEW here? Create an account" 
                         Clicked="NewAccount_Button_Clicked"
-                            />
+                        
+                        />
+                <!--  -->
+                        
+                       
 
                 <!--    Command="{Binding SignUpButtonCommand}" -->
             

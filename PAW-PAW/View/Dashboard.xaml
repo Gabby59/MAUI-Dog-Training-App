@@ -7,8 +7,7 @@
              xmlns:model="clr-namespace:PAW_PAW.Model"
              >
 
-    <!--no longer needed -->
-    <!--      
+   
     <ContentPage.MenuBarItems>
             <MenuBarItem Text="Puppy Training Guideline">
                 <MenuFlyoutItem Text="7-8 Weeks Old"
@@ -31,7 +30,7 @@
                             Clicked="MenuFlyoutItem_Tips_Clicked"/>
             </MenuBarItem>
         </ContentPage.MenuBarItems>
- -->
+
   
 
 
