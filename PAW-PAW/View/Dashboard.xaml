@@ -7,90 +7,78 @@
              xmlns:model="clr-namespace:PAW_PAW.Model"
              >
 
-   
     <ContentPage.MenuBarItems>
-            <MenuBarItem Text="Puppy Training Guideline">
-                <MenuFlyoutItem Text="7-8 Weeks Old"
+        <MenuBarItem Text="Puppy Training Guideline">
+            <MenuFlyoutItem Text="7-8 Weeks Old"
                             IconImageSource="training_8_10_weeks.png"
                             Clicked="MenuFlyoutItem_7_8Weeks_Clicked" />
-                <MenuFlyoutItem Text="8-10 Weeks Old"
+            <MenuFlyoutItem Text="8-10 Weeks Old"
                             IconImageSource="dotnet_bot.svg"
                             Clicked="MenuFlyoutItem_8_10Weeks_Clicked"   />
-                <MenuFlyoutItem Text="10-12 Weeks Old"
+            <MenuFlyoutItem Text="10-12 Weeks Old"
+                                IconImageSource="menu_10-12_weeks.png"
                             Clicked="MenuFlyoutItem_10_12Weeks_Clicked"/>
-                <MenuFlyoutItem Text="12-16 Weeks Old"
+            <MenuFlyoutItem Text="12-16 Weeks Old"
                             Clicked="MenuFlyoutItem_12_16Weeks_Clicked" />
-                <MenuFlyoutItem Text="6 Months Old"
+            <MenuFlyoutItem Text="6 Months Old"
                             Clicked="MenuFlyoutItem_6Months_Clicked"/>
-            </MenuBarItem>
-            <MenuBarItem Text="Tools and Support">
-                <MenuFlyoutItem Text="Journal"
+        </MenuBarItem>
+        <MenuBarItem Text="Tools and Support">
+            <MenuFlyoutItem Text="Journal"
                             Clicked="MenuFlyoutItem_Journal_Clicked" />
-                <MenuFlyoutItem Text=" Useful Tips"
+            <MenuFlyoutItem Text=" Useful Tips"
                             Clicked="MenuFlyoutItem_Tips_Clicked"/>
-            </MenuBarItem>
-        </ContentPage.MenuBarItems>
-
-  
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
 
 
     <ScrollView>
-            <Grid RowDefinitions="Auto,30,Auto,Auto,Auto,Auto, 50"
+            <Grid RowDefinitions="Auto,35,Auto,Auto,Auto,Auto,60"
                   RowSpacing="10"
                   Margin="10"
                   Padding="5">
 
-
                 <Image Source="dashboard.png"/>
 
-                <Label Grid.Row="1" 
-                       HorizontalOptions="Center" FontAttributes="Bold" FontSize="18"
-                       Text="Are you ready to start training your dog?"/>
+            <Label Grid.Row="1" HorizontalOptions="Center" 
+                   Text="Are you ready to start training your dog?"
+                   FontAttributes="Bold" FontSize="18" FontFamily="SansRegular" />
 
-                <Label Grid.Row="2" FontSize="14" Text="Proper training and socialization are among your dog's basic needs. It's important to start training your dog as soon as possible so gather some equipment and set up a schedule. You need to be fully committed and prepared for a daily commitment."/>
+            <Label Grid.Row="2" FontSize="14" FontFamily="SansRegular" LineHeight="1.3"
+                   Text="Proper training and socialization are among your dog's basic needs. You need to be fully committed and prepared for a daily commitment. Equipment you will need: a collar and a leash, a clicker, some treats that your dog enjoys to reward his good behaviour."/>
+            <!-- <Label Grid.Row="3" FontSize="14" Text="Equipment you will need:&#10; - a collar and a leash, &#10; - a clicker, &#10; - some treats that your dog enjoys to reward his good behaviour."/>
+ -->
+            <Label Grid.Row="3" Margin="0,15,0,0"
+                   FontSize="14" FontFamily="SansRegular"
+                   Text="Here is a summary of your training journey timeline:"/>
 
-                <Label Grid.Row="3" FontSize="14" Text="Equipment you will need:&#10; - a collar and a leash, &#10; - a clicker, &#10; - some treats that your dog enjoys to reward his good behaviour."/>
-
-                <CarouselView Grid.Row="4">
-
-                    <CarouselView.ItemsSource>
-                        <x:Array Type="{x:Type model:TrainingModel}">
-                            <model:TrainingModel Name="House Training" ImageT="dash_8_10w.png" Details="Short description of the house training section "/>
-                            <model:TrainingModel Name="10-12 Weeks Training" ImageT="dash_10_12w.png" Details="Short description of the house training section"/>
-                            <model:TrainingModel Name="General Training" ImageT="dash_3_4m.png" Details="Short description of the house training section "/>
-                            <model:TrainingModel Name="4-6 Months" ImageT="dash_4_6m.png" Details="Short description of the house training section " />
-                            <model:TrainingModel Name=" 6 Months - 1 Year" ImageT="dash_6m_1y.png" Details="Short description of the house training section " />
-                        </x:Array>
-                    </CarouselView.ItemsSource>
-
-
-                    <CarouselView.ItemTemplate>
-                        <DataTemplate x:DataType="model:TrainingModel">
-
-                            <StackLayout>
-                                <Frame HasShadow="True"
-                       BorderColor="DarkGray"
-                       CornerRadius="5"
-                       Margin="10"
-                       HorizontalOptions="CenterAndExpand"
-                       VerticalOptions="CenterAndExpand">
-                                    <StackLayout>
-                                        <Label Text="{Binding Name}"
-                               FontAttributes="Bold"
-                               FontSize="14"
-                               HorizontalOptions="Center"
-                               VerticalOptions="Center" />
-
-                                        <Image Source="{Binding ImageT}"
-                               Margin="0,15,0,15"       
-                               Aspect="AspectFit"
-                               HeightRequest="140"
-                               WidthRequest="600"
-                               HorizontalOptions="Center" />
-
-                                    </StackLayout>
-                                </Frame>
-                            </StackLayout>
+            <CarouselView Grid.Row="4">
+                <CarouselView.ItemsSource>
+                    <x:Array Type="{x:Type model:TrainingModel}">
+                        <model:TrainingModel Name="Initialization" ImageT="dash_8_10w.png" Details="Short description of the house training section "/>
+                        <model:TrainingModel Name="House Training" ImageT="dash_10_12w.png" Details="Short description of the house training section"/>
+                        <model:TrainingModel Name="Socialization" ImageT="dash_3_4m.png" Details="Short description of the house training section "/>
+                        <model:TrainingModel Name="Advanced Commands" ImageT="dash_4_6m.png" Details="Short description of the house training section " />
+                        <model:TrainingModel Name="The Journey Continues" ImageT="dash_6m_1y.png" Details="Short description of the house training section " />
+                    </x:Array>
+                </CarouselView.ItemsSource>
+                
+                <CarouselView.ItemTemplate>
+                    <DataTemplate x:DataType="model:TrainingModel">
+                        <StackLayout>
+                            <Frame Margin="0,5" 
+                                   CornerRadius="5" BorderColor="DarkGrey"
+                                   HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                                <StackLayout>
+                                    <Label Text="{Binding Name}"
+                                               TextColor="Orange" FontFamily="SansRegular" FontAttributes="Bold" FontSize="15"                                                                      
+                                               HorizontalOptions="Center"  VerticalOptions="Center" />
+                                    <Image Source="{Binding ImageT}"
+                                           Margin="0,5" Aspect="AspectFit"      
+                                           HeightRequest="180"  HorizontalOptions="Center" />
+                                </StackLayout>
+                             </Frame>
+                        </StackLayout>
 
 
                             <!--    
@@ -105,10 +93,14 @@
                     </CarouselView.ItemTemplate>
                 </CarouselView>
 
-                <Label Grid.Row="5" FontSize="12" FontAttributes="Bold" Text="Recommendations:&#10; - cover one training section at a time, make it fun and memorable! &#10; - keep record of your dog's progress and experience in the Journal section."
+            <Label Grid.Row="5"  Margin="0,2"
+                       FontSize="12" FontAttributes="Bold" 
+                       Text="Recommendations:&#10; - cover one training section at a time, make it fun and memorable! &#10; - keep records of your dog's progress in the Journal section."
                  />
 
-                <Label Grid.Row="6" Text=" And don't forget, positive reinforcement is key!" Padding="10" BackgroundColor="Orange" FontSize="16" FontAttributes="Bold" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center"/>
+            <Label Grid.Row="6" Margin="0,15,0,0" 
+                   Text="And don't forget, positive reinforcement is key!" CharacterSpacing="0.5" FontFamily="SansRegular" FontSize="15"
+                   BackgroundColor="DarkCyan" TextColor="White"  HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"/>
             </Grid>
 
         </ScrollView>

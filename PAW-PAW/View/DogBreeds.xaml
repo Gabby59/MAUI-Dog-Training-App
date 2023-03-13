@@ -7,7 +7,33 @@
              x:DataType="viewmodel:DogBreedsVM"
              >
 
- 
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Home">
+            <MenuFlyoutItem Text="Dashboard"
+                            Clicked="MenuFlyoutItem_Dashboard_Clicked" >
+            </MenuFlyoutItem>
+        </MenuBarItem>
+        <MenuBarItem Text="Puppy Training Guideline">
+            <MenuFlyoutItem Text="7-8 Weeks Old"
+                            IconImageSource="training_8_10_weeks.png"
+                            Clicked="MenuFlyoutItem_7_8Weeks_Clicked" />
+            <MenuFlyoutItem Text="8-10 Weeks Old"
+                            IconImageSource="dotnet_bot.svg"
+                            Clicked="MenuFlyoutItem_8_10Weeks_Clicked"   />
+            <MenuFlyoutItem Text="10-12 Weeks Old"
+                            Clicked="MenuFlyoutItem_10_12Weeks_Clicked"/>
+            <MenuFlyoutItem Text="12-16 Weeks Old"
+                            Clicked="MenuFlyoutItem_12_16Weeks_Clicked" />
+            <MenuFlyoutItem Text="6 Months Old"
+                            Clicked="MenuFlyoutItem_6Months_Clicked"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Tools and Support">
+            <MenuFlyoutItem Text="Journal"
+                            Clicked="MenuFlyoutItem_Journal_Clicked" />
+            <MenuFlyoutItem Text=" Useful Tips"
+                            Clicked="MenuFlyoutItem_Tips_Clicked"/>
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
 
     <Grid ColumnDefinitions="*,*"        
           ColumnSpacing="10"
@@ -21,30 +47,29 @@
             <!-- bind the item source to the list of dog items -->
 
             <CollectionView.EmptyView>
-                <Grid 
-                    Padding="5" BackgroundColor="AliceBlue" IsClippedToBounds="True">
+                <Grid Padding="5"  IsClippedToBounds="True">
+                    <ScrollView>
+                        <VerticalStackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                            <!--  <Label HorizontalOptions="Center" FontFamily="Helvetica" FontAttributes="Bold" FontSize="Subtitle" TextColor="MediumPurple"  Text="Here are some tips to support you on this journey"/> -->
+                            <Image Margin="20" Source="labradorpuppy.jpeg" HeightRequest="200" HorizontalOptions="FillAndExpand"  BackgroundColor="Transparent"/>
 
-                    <StackLayout Margin="10" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
-                        <Label HorizontalOptions="Center" FontFamily="Helvetica" FontAttributes="Bold" FontSize="Subtitle" TextColor="MediumPurple"  Text="Here are some tips to support you on this journey"/>
-                        <Image Margin="20" Source="doggiewithleash.jpeg" HeightRequest="180" HorizontalOptions="FillAndExpand"  BackgroundColor="LightSeaGreen"/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Set your dog up for success" FontAttributes="Bold"/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Ahead of training sessions, make sure their mental and physical needs are being met. Prepare an environment that's full of things that your dog enjoys interacting with and experiencing."/>
 
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose the right environment" FontAttributes="Bold"/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="When first starting out, your dog will need more quiet locations that are free from distractions. As he gets more experienced with the skill, you'll progress to outdoors."/>
 
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Set your dog up for success" FontAttributes="Bold"/>
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Ahead of training sessions, make sure their mental and physical needs are being met. That usually looks like plenty of exercise and an enriching environment that's full of things that your dog enjoys interacting with and experiencing."/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Sequence your learning and keep training sessions short and sweet" FontAttributes="Bold"/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Keep your training sessions from 5-15 minutes so your dog remains focused. End your training on a good note, so you and your dog come back the next day wanting more!"/>
 
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose the right environment" FontAttributes="Bold"/>
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="When first starting out, your dog will need more quiet locations that are free from distractions. As he gets more experienced with the skill, you'll progress to outdoors."/>
-
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Sequence your learning and keep training sessions short and sweet" FontAttributes="Bold"/>
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Keep your training sessions from 5-15 minutes so your dog remains focused. End your training on a good note, so you and your dog come back the next day wanting more!"/>
-
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose rewards that matter to your dog" FontAttributes="Bold"/>
-                        <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Know what rewards matter to your dog. Just because you think your dog should like it, doesn't mean he will! Make a list of different food rewards in an awesomeness hierarchy for use in training."/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose rewards that matter to your dog" FontAttributes="Bold"/>
+                            <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Know what rewards matter to your dog. Just because you think your dog should like it, doesn't mean he will! Make a list of different food rewards in an awesomeness hierarchy for use in training."/>
 
 
-                    </StackLayout>
+                        </VerticalStackLayout>
+                    </ScrollView>
                 </Grid>
-
+       
             </CollectionView.EmptyView>
 
             <CollectionView.ItemTemplate>
@@ -66,25 +91,22 @@
 
                             </HorizontalStackLayout>
                         </Frame>
-                    </Grid> 
+                    </Grid>
 
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-
         </CollectionView>
-
         <!-- button to bind to the GetDogs command from the DogBreedsVM -->
         <Button Margin="8"
                 Text="Check out different dog breeds personalities"
                 Command="{Binding GetDogsCommand}"
                 HorizontalOptions="Center"
                 BackgroundColor="Orange"
-                TextColor="Black"
-                Grid.Row="1"
+                TextColor="Black" FontAttributes="Bold"
+                Grid.Row="2"
                 Grid.ColumnSpan="2"
                 Opacity="0.9"
                 />
-
     </Grid>
 
 </ContentPage>

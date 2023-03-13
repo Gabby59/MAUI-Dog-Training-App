@@ -5,16 +5,44 @@
              xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel" 
              x:DataType="viewmodel:JournalVM"
              >
- 
-    <Grid RowDefinitions="140,Auto, .75*, .10*,Auto"
+
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Home">
+            <MenuFlyoutItem Text="Dashboard"
+                            Clicked="MenuFlyoutItem_Dashboard_Clicked" >
+            </MenuFlyoutItem>
+        </MenuBarItem>
+        <MenuBarItem Text="Puppy Training Guideline">
+            <MenuFlyoutItem Text="7-8 Weeks Old"
+                            Clicked="MenuFlyoutItem_7_8Weeks_Clicked" >
+            </MenuFlyoutItem>
+            <MenuFlyoutItem Text="8-10 Weeks Old"
+                            IconImageSource="dotnet_bot.svg"
+                            Clicked="MenuFlyoutItem_8_10Weeks_Clicked"   />
+            <MenuFlyoutItem Text="10-12 Weeks Old"
+                            Clicked="MenuFlyoutItem_10_12Weeks_Clicked"/>
+            <MenuFlyoutItem Text="12-16 Weeks Old"
+                            Clicked="MenuFlyoutItem_12_16Weeks_Clicked" />
+            <MenuFlyoutItem Text="6 Months Old"
+                            Clicked="MenuFlyoutItem_6Months_Clicked"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Tools and Support">
+            <MenuFlyoutItem Text="Journal"
+                            Clicked="MenuFlyoutItem_Journal_Clicked" />
+            <MenuFlyoutItem Text=" Useful Tips"
+                            Clicked="MenuFlyoutItem_Tips_Clicked"/>
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
+
+    <Grid RowDefinitions="200,Auto, .75*, Auto,Auto"
           RowSpacing="10"
           Padding="5">
 
-        <Image Source="provisional_logo.jpeg"
-               BackgroundColor="DarkCyan" />
+        <Image Source="provisional_logo.jpeg" WidthRequest="200" HeightRequest="200"
+               />
 
         <Label Grid.Row="1" Margin="30"
-               HorizontalOptions="Center" FontAttributes="Bold" FontSize="13"
+               HorizontalOptions="Center" FontAttributes="Bold" FontSize="14"
                Text="We encourage you to keep records of your puppy's training, paying attention to their likes, best times to work with, special treats, etc. This will help set your dog up for success and build a strong relationship."/>
 
         <CollectionView Grid.Row="2" ItemsSource="{Binding Notes}">
@@ -27,7 +55,7 @@
             <CollectionView.ItemTemplate>
                 <DataTemplate x:DataType="{x:Type x:String}">
                     <Grid Padding="0.6">
-                        <Frame  BackgroundColor="LightSeaGreen" Opacity="0.8">
+                        <Frame  BackgroundColor="GhostWhite" BorderColor="DarkCyan" Opacity="0.8">
                             <Label Text="{Binding .}"
                                    FontSize="11"
                                    />
@@ -41,11 +69,13 @@
                Grid.Row="3"
                AutoSize="TextChanges"
                IsReadOnly="False"
+               
                Text="{Binding Note}"
             />
 
         <Button Text="Add Note"
                 TextColor="Black"
+                FontAttributes="Bold"
                 Grid.Row="4"
                 BackgroundColor="Orange"
                 Command="{Binding AddCommand}"/>

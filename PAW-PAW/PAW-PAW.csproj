@@ -51,6 +51,8 @@
 
 	<ItemGroup>
 		<None Remove="CommunityToolkit.Mvvm" />
+		<None Remove="Resources\Images\button.jpg" />
+		<None Remove="Resources\Images\createacc.gif" />
 		<None Remove="Resources\Images\dashboard.jpeg" />
 		<None Remove="Resources\Images\dashboard.png" />
 		<None Remove="Resources\Images\dash_10_12W.png" />
@@ -59,6 +61,10 @@
 		<None Remove="Resources\Images\dash_6M_1Y.png" />
 		<None Remove="Resources\Images\dash_8_10W.png" />
 		<None Remove="Resources\Images\doggiewithleash.jpeg" />
+		<None Remove="Resources\Images\freedomhappiness.jpeg" />
+		<None Remove="Resources\Images\labradorpuppy.jpeg" />
+		<None Remove="Resources\Images\logo.jpeg" />
+		<None Remove="Resources\Images\Menu_10_12_weeks.png" />
 		<None Remove="Resources\Images\sit_training.gif" />
 		<None Remove="Resources\Images\training_8_10_weeks.png" />
 		<None Remove="ViewModel\" />
@@ -67,11 +73,11 @@
 		<None Remove="System.Text.Json" />
 	</ItemGroup>
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.0.0" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.1.0" />
 		<PackageReference Include="FirebaseAuthentication.net" Version="3.7.2" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
-		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.2" />
-		<PackageReference Include="System.Text.Json" Version="6.0.6" />
+		<PackageReference Include="SQLitePCLRaw.provider.dynamic_cdecl" Version="2.1.4" />
+		<PackageReference Include="System.Text.Json" Version="7.0.2" />
 	</ItemGroup>
 	<ItemGroup>
 		<Compile Update="View\TrainingSection.xaml.cs">

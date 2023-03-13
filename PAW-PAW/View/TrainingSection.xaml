@@ -2,51 +2,62 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAW_PAW.View.TrainingSection"
-             Title="Training Schedule"
+             Title=""
              xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel"
              x:DataType="viewmodel:TrainingSectionVM" >
 
-    
-    <Grid RowDefinitions="*,Auto"
-          RowSpacing="5">
+    <ContentPage.MenuBarItems>
+        <MenuBarItem Text="Home">
+            <MenuFlyoutItem Text="Dashboard"
+                            Clicked="MenuFlyoutItem_Dashboard_Clicked" >
+            </MenuFlyoutItem>
+        </MenuBarItem>
+        <MenuBarItem Text="Puppy Training Guideline">
+            <MenuFlyoutItem Text="7-8 Weeks Old"
+                            IconImageSource="training_8_10_weeks.png"
+                            Clicked="MenuFlyoutItem_7_8Weeks_Clicked" />
+            <MenuFlyoutItem Text="8-10 Weeks Old"
+                            IconImageSource="dotnet_bot.svg"
+                            Clicked="MenuFlyoutItem_8_10Weeks_Clicked"   />
+            <MenuFlyoutItem Text="10-12 Weeks Old"
+                            Clicked="MenuFlyoutItem_10_12Weeks_Clicked"/>
+            <MenuFlyoutItem Text="12-16 Weeks Old"
+                            Clicked="MenuFlyoutItem_12_16Weeks_Clicked" />
+            <MenuFlyoutItem Text="6 Months Old"
+                            Clicked="MenuFlyoutItem_6Months_Clicked"/>
+        </MenuBarItem>
+        <MenuBarItem Text="Tools and Support">
+            <MenuFlyoutItem Text="Journal"
+                            Clicked="MenuFlyoutItem_Journal_Clicked" />
+            <MenuFlyoutItem Text=" Useful Tips"
+                            Clicked="MenuFlyoutItem_Tips_Clicked"/>
+        </MenuBarItem>
+    </ContentPage.MenuBarItems>
 
+    <Grid RowDefinitions="*,Auto" RowSpacing="5">
         <CollectionView>
- 
             <CollectionView.ItemTemplate>
-            <DataTemplate >
-                <Grid>
-                    <Frame BackgroundColor="GhostWhite" Margin="5,0,5,0" Padding="0" HeightRequest="105" >
-                        <HorizontalStackLayout Padding="10,0">
-
-                            <Image BackgroundColor="DarkCyan"
-                                   HeightRequest="90"
-                                   WidthRequest="149" 
-                                  
-                                  />
-                                        <VerticalStackLayout Margin="20" VerticalOptions="Center">
-                                 
-
-                                        </VerticalStackLayout>
-                                    </HorizontalStackLayout>
-                    </Frame>
-                </Grid>
-
-            </DataTemplate>
-        </CollectionView.ItemTemplate>
-
+                <DataTemplate >
+                    <Grid>
+                        <Frame BackgroundColor="GhostWhite" Margin="5,0,5,0" Padding="0" HeightRequest="105" >
+                            <HorizontalStackLayout Padding="10,0">
+                                <Image BackgroundColor="DarkCyan" HeightRequest="90" WidthRequest="149"/>
+                                <VerticalStackLayout Margin="20" VerticalOptions="Center">
+                                </VerticalStackLayout>
+                            </HorizontalStackLayout>
+                        </Frame>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
         </CollectionView>
 
-        <Image Source="sit_training.gif"/>
+        <Image Source="sit_training.gif" HeightRequest="400" WidthRequest="400"/>
 
         <Button Grid.Row="1"
             Margin="0,15,0,5" 
             FontFamily="OpenSansRegular"                
-            Text="Go to Journal Entries" 
+            Text="Have some new thought to add? Go to Journal Entries" 
             BackgroundColor="DarkCyan"
             Command="{Binding JournalTapCommand}"/>
-
-
     </Grid>
-
-    
 </ContentPage>

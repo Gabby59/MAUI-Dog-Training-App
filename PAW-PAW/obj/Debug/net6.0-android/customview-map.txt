@@ -19,11 +19,9 @@ background;obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon.xml
 background;obj\Debug\net6.0-android\resizetizer\r\mipmap-anydpi-v26\appicon_round.xml
 bitmap;obj\Debug\net6.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 bitmap;obj\Debug\net6.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-bitmap;obj\Debug\net6.0-android\resizetizer\sp\maui_splash_image.xml
 cache-path;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\156\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 color;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\155\jl\res\values\colors.xml
 color;obj\Debug\net6.0-android\res\values\colors.xml
-color;obj\Debug\net6.0-android\resizetizer\sp\maui_colors.xml
 color;obj\Debug\net6.0-android\resizetizer\sp\values\maui_colors.xml
 com.google.android.material.appbar.AppBarLayout;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\152\jl\res\layout\flyoutcontent.xml
 com.google.android.material.appbar.AppBarLayout;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\152\jl\res\layout\shellcontent.xml
@@ -41,12 +39,10 @@ item;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\D
 item;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\155\jl\res\values\styles.xml
 item;obj\Debug\net6.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 item;obj\Debug\net6.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-item;obj\Debug\net6.0-android\resizetizer\sp\maui_splash_image.xml
 layer-list;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\155\jl\res\drawable\maui_splash.xml
 layer-list;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\155\jl\res\drawable\maui_splash_image.xml
 layer-list;obj\Debug\net6.0-android\resizetizer\sp\drawable\maui_splash_image.xml
 layer-list;obj\Debug\net6.0-android\resizetizer\sp\drawable-v31\maui_splash_image.xml
-layer-list;obj\Debug\net6.0-android\resizetizer\sp\maui_splash_image.xml
 microsoft.maui.controls.platform.compatibility.ShellFlyoutLayout;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\152\jl\res\layout\flyoutcontent.xml
 paths;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\156\jl\res\xml\microsoft_maui_essentials_fileprovider_file_paths.xml
 resources;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\152\jl\res\values\strings.xml
@@ -57,7 +53,6 @@ resources;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\
 resources;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\155\jl\res\values\colors.xml
 resources;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\155\jl\res\values\styles.xml
 resources;obj\Debug\net6.0-android\res\values\colors.xml
-resources;obj\Debug\net6.0-android\resizetizer\sp\maui_colors.xml
 resources;obj\Debug\net6.0-android\resizetizer\sp\values\maui_colors.xml
 set;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\152\jl\res\anim\enterfromleft.xml
 set;C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-android\lp\152\jl\res\anim\enterfromright.xml

@@ -378,3 +378,9 @@ C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\logo.scale-100.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\button.scale-100.jpg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\freedomhappiness.scale-100.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\createacc.scale-100.gif
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\labradorpuppy.scale-100.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\resizetizer\r\menu_10_12_weeks.scale-100.png

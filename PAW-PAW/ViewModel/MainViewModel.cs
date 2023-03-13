@@ -24,7 +24,7 @@ namespace PAW_PAW.ViewModel
         public MainViewModel(INavigation navigation)
         {
               this.Navigation = navigation;
-
+ 
         }
 
         [RelayCommand]

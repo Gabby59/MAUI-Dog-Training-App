@@ -20,7 +20,7 @@ public static class MauiProgram
 
 		//register the pages in our program
 
-		builder.Services.AddSingleton<MainPage>();
+		//builder.Services.AddSingleton<MainPage>();
 		builder.Services.AddSingleton<MainViewModel>();
 
 		builder.Services.AddTransient<Dashboard>();

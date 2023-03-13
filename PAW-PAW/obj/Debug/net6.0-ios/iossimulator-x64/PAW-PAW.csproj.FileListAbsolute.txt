@@ -541,3 +541,17 @@ C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\ref\PAW-PAW.dll
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dashboard.png
 C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\doggiewithleash.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\button.jpg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\createacc.gif
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dash_10_12w.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dash_3_4m.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dash_4_6m.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dash_6m_1y.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\dash_8_10w.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\freedomhappiness.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\labradorpuppy.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\logo.jpeg
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\sit_training.gif
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\training_8_10_weeks.png
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\build-signature\signature
+C:\Users\gabri\source\PAW-PAWSolution (latest - not working!)\PAW-PAW\obj\Debug\net6.0-ios\iossimulator-x64\resizetizer\r\Resources\menu_10_12_weeks.png

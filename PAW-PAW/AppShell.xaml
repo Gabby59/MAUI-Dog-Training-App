@@ -18,15 +18,16 @@
         <ShellContent Title="Journal"  ContentTemplate="{DataTemplate local:Journal}" />
     </TabBar>
 
-
+     -->
 
     <ShellContent
-        Title="Homepage"
+        Shell.NavBarIsVisible="False"
+        Title="Main"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-     -->
-   
-    
+
+
+    <!--
     <TabBar>
         <Tab Title="Main">
             <ShellContent
@@ -50,7 +51,7 @@
                         ContentTemplate="{DataTemplate local:DogBreeds}" />
         </Tab>
     </TabBar>
-    
+     -->
         
 </Shell>
 

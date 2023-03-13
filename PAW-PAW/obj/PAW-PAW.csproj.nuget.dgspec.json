@@ -63,7 +63,7 @@
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.1.0, )"
             },
             "FirebaseAuthentication.net": {
               "target": "Package",
@@ -81,11 +81,11 @@
             },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.4, )"
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[7.0.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -178,14 +178,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         },
         "net6.0-ios16.1": {
           "targetAlias": "net6.0-ios",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.1.0, )"
             },
             "FirebaseAuthentication.net": {
               "target": "Package",
@@ -203,7 +203,7 @@
             },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.4, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -212,7 +212,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[7.0.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -281,14 +281,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         },
         "net6.0-maccatalyst16.1": {
           "targetAlias": "net6.0-maccatalyst",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.1.0, )"
             },
             "FirebaseAuthentication.net": {
               "target": "Package",
@@ -306,7 +306,7 @@
             },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.4, )"
             },
             "System.Runtime.InteropServices.NFloat.Internal": {
               "target": "Package",
@@ -315,7 +315,7 @@
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[7.0.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -385,14 +385,14 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         },
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "dependencies": {
             "CommunityToolkit.Mvvm": {
               "target": "Package",
-              "version": "[8.0.0, )"
+              "version": "[8.1.0, )"
             },
             "FirebaseAuthentication.net": {
               "target": "Package",
@@ -416,11 +416,11 @@
             },
             "SQLitePCLRaw.provider.dynamic_cdecl": {
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.4, )"
             },
             "System.Text.Json": {
               "target": "Package",
-              "version": "[6.0.6, )"
+              "version": "[7.0.2, )"
             },
             "sqlite-net-pcl": {
               "target": "Package",
@@ -497,7 +497,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -1,10 +1,16 @@
-﻿obj\Debug\net6.0-android\resizetizer\r\drawable\dashboard.png
+﻿obj\Debug\net6.0-android\resizetizer\r\drawable\button.jpg
+obj\Debug\net6.0-android\resizetizer\r\drawable\createacc.gif
+obj\Debug\net6.0-android\resizetizer\r\drawable\dashboard.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\dash_10_12w.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\dash_3_4m.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\dash_4_6m.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\dash_6m_1y.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\dash_8_10w.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\doggiewithleash.jpeg
+obj\Debug\net6.0-android\resizetizer\r\drawable\freedomhappiness.jpeg
+obj\Debug\net6.0-android\resizetizer\r\drawable\labradorpuppy.jpeg
+obj\Debug\net6.0-android\resizetizer\r\drawable\logo.jpeg
+obj\Debug\net6.0-android\resizetizer\r\drawable\menu_10_12_weeks.png
 obj\Debug\net6.0-android\resizetizer\r\drawable\provisional_logo.jpeg
 obj\Debug\net6.0-android\resizetizer\r\drawable\sit_training.gif
 obj\Debug\net6.0-android\resizetizer\r\drawable\training_8_10_weeks.png
