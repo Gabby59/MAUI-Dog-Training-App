@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Firebase.Auth;
@@ -27,6 +28,8 @@ namespace PAW_PAW.ViewModel
  
         }
 
+
+
         [RelayCommand]
         async Task SignInButton(object obj)
         {
@@ -38,8 +41,8 @@ namespace PAW_PAW.ViewModel
                 var content = await auth.GetFreshAuthAsync();
                 var serializedContent = JsonConvert.SerializeObject(content);
                 Preferences.Set("FreshFirebaseToken", serializedContent);
-              await Shell.Current.Navigation.PushAsync(new Dashboard()); //use Navigation to pass the user 
-                //await Shell.Current.GoToAsync(nameof(Dashboard)); 
+            //  await Shell.Current.Navigation.PushAsync(new Dashboard()); //use Navigation to pass the user 
+                await Shell.Current.GoToAsync(nameof(Dashboard)); 
             }
             catch (Exception e)
             {
@@ -53,9 +56,8 @@ namespace PAW_PAW.ViewModel
         [RelayCommand]
         async Task SignUpButton(string s)
         {
-       //  await Shell.Current.GoToAsync(nameof(UserReg));
-
-            await Shell.Current.Navigation.PushAsync(new UserReg());
+          await Shell.Current.GoToAsync(nameof(UserReg));
+      //      await Shell.Current.Navigation.PushAsync(new UserReg());
         }
 
 
@@ -64,14 +66,9 @@ namespace PAW_PAW.ViewModel
         [RelayCommand]
         async Task ButtonTap(string s)
         {
-           await Shell.Current.Navigation.PushAsync(new Dashboard());
+         //  await Shell.Current.Navigation.PushAsync(new Dashboard());
 
-         //  await Shell.Current.GoToAsync(nameof(Dashboard));
-
-            //DOES NOT WORK 
-          //await Shell.Current.GoToAsync("//Dashboard");
-
-
+         await Shell.Current.GoToAsync(nameof(Dashboard));
         }
     }
 }

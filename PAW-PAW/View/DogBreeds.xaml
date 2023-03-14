@@ -38,14 +38,22 @@
     <Grid ColumnDefinitions="*,*"        
           ColumnSpacing="10"
           RowDefinitions="*,Auto"
-          RowSpacing="5">
+          RowSpacing="5"
+          Margin="5" Padding="10">
 
         <CollectionView 
             Grid.ColumnSpan="2"
             ItemsSource="{Binding Dogs}"
             SelectionMode="None">
+            
             <!-- bind the item source to the list of dog items -->
 
+            <!--
+            <CollectionView.ItemsLayout>
+                <GridItemsLayout Orientation="Vertical" Span="3"></GridItemsLayout>
+            </CollectionView.ItemsLayout>
+            
+            -->
             <CollectionView.EmptyView>
                 <Grid Padding="5"  IsClippedToBounds="True">
                     <ScrollView>
@@ -64,7 +72,6 @@
 
                             <Label HorizontalTextAlignment="Start" Margin="20,0,0,5" TextColor="DarkCyan" FontFamily="OpenSansRegular" FontSize="14" Text="Choose rewards that matter to your dog" FontAttributes="Bold"/>
                             <Label HorizontalTextAlignment="Start" Margin="20,0,0,15" FontFamily="OpenSansRegular" FontSize="13" Text="Know what rewards matter to your dog. Just because you think your dog should like it, doesn't mean he will! Make a list of different food rewards in an awesomeness hierarchy for use in training."/>
-
 
                         </VerticalStackLayout>
                     </ScrollView>
@@ -92,20 +99,27 @@
                             </HorizontalStackLayout>
                         </Frame>
                     </Grid>
-
                 </DataTemplate>
             </CollectionView.ItemTemplate>
+
+<!--
+            <CollectionView.Footer>
+                <StackLayout HorizontalOptions="Center" Orientation="Horizontal">
+                    <Button Text="Check different breeds" Command="{Binding GetDogsCommand}"></Button>
+                    <Button Text=" Tips and tools"> </Button>
+                </StackLayout>
+            </CollectionView.Footer>
+-->
         </CollectionView>
+            
         <!-- button to bind to the GetDogs command from the DogBreedsVM -->
-        <Button Margin="8"
+        <Button Margin="0,5,0,0" Grid.Row="2" Grid.ColumnSpan="2"
                 Text="Check out different dog breeds personalities"
                 Command="{Binding GetDogsCommand}"
-                HorizontalOptions="Center"
                 BackgroundColor="Orange"
                 TextColor="Black" FontAttributes="Bold"
-                Grid.Row="2"
-                Grid.ColumnSpan="2"
                 Opacity="0.9"
+                HorizontalOptions="Center"          
                 />
     </Grid>
 

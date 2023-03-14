@@ -9,22 +9,19 @@
     <ContentPage.MenuBarItems>
         <MenuBarItem Text="Home">
             <MenuFlyoutItem Text="Dashboard"
-                            Clicked="MenuFlyoutItem_Dashboard_Clicked" >
-            </MenuFlyoutItem>
+                            Clicked="MenuFlyoutItem_Dashboard_Clicked" />
         </MenuBarItem>
-        <MenuBarItem Text="Puppy Training Guideline">
-            <MenuFlyoutItem Text="7-8 Weeks Old"
-                            IconImageSource="training_8_10_weeks.png"
-                            Clicked="MenuFlyoutItem_7_8Weeks_Clicked" />
+        <MenuBarItem Text="Training Guideline">
             <MenuFlyoutItem Text="8-10 Weeks Old"
-                            IconImageSource="dotnet_bot.svg"
-                            Clicked="MenuFlyoutItem_8_10Weeks_Clicked"   />
+                            Clicked="MenuFlyoutItem_8_10Weeks_Clicked" />
             <MenuFlyoutItem Text="10-12 Weeks Old"
                             Clicked="MenuFlyoutItem_10_12Weeks_Clicked"/>
-            <MenuFlyoutItem Text="12-16 Weeks Old"
-                            Clicked="MenuFlyoutItem_12_16Weeks_Clicked" />
-            <MenuFlyoutItem Text="6 Months Old"
-                            Clicked="MenuFlyoutItem_6Months_Clicked"/>
+            <MenuFlyoutItem Text="3-4 Months Old"
+                            Clicked="MenuFlyoutItem_3_4Months_Clicked" />
+            <MenuFlyoutItem Text="4-6 Months Old"
+                            Clicked="MenuFlyoutItem_4_6Months_Clicked"/>
+            <MenuFlyoutItem Text="Older than 6 Months"
+                            Clicked="MenuFlyoutItem_Older_Than_6Months_Clicked"/>
         </MenuBarItem>
         <MenuBarItem Text="Tools and Support">
             <MenuFlyoutItem Text="Journal"
@@ -34,10 +31,12 @@
         </MenuBarItem>
     </ContentPage.MenuBarItems>
 
-    <Grid RowDefinitions="*,Auto" RowSpacing="5">
-        <CollectionView>
+    <Grid RowDefinitions="*,Auto" RowSpacing="5" Margin="5" Padding="10">
+        <VerticalStackLayout Spacing="10" Margin="10">
+            <!--
+            <CollectionView>
             <CollectionView.ItemTemplate>
-                <DataTemplate >
+                <DataTemplate>
                     <Grid>
                         <Frame BackgroundColor="GhostWhite" Margin="5,0,5,0" Padding="0" HeightRequest="105" >
                             <HorizontalStackLayout Padding="10,0">
@@ -49,15 +48,18 @@
                     </Grid>
                 </DataTemplate>
             </CollectionView.ItemTemplate>
-        </CollectionView>
+        </CollectionView> -->
 
-        <Image Source="sit_training.gif" HeightRequest="400" WidthRequest="400"/>
+            <Label Text="This will display the training Title" HorizontalOptions="Center"  FontAttributes="Bold" FontSize="18" FontFamily="SansRegular" ></Label>
+            <Label Grid.Row="1" Text="This &#10; will &#10; be &#10; the &#10; allocated &#10; space &#10; for &#10; the &#10; description."></Label>
+            <Image Grid.Row="2" Source="sit_training.gif" HeightRequest="400" WidthRequest="400"/>
+    </VerticalStackLayout>
+    <Button Grid.Row="1" Margin="0,5,0,0"
+                    Text=" Go to Journal Entries to keep records of your day" FontAttributes="Bold"
+                    BackgroundColor="Orange"
+                    Command="{Binding JournalTapCommand}"/>
 
-        <Button Grid.Row="1"
-            Margin="0,15,0,5" 
-            FontFamily="OpenSansRegular"                
-            Text="Have some new thought to add? Go to Journal Entries" 
-            BackgroundColor="DarkCyan"
-            Command="{Binding JournalTapCommand}"/>
+
     </Grid>
+
 </ContentPage>

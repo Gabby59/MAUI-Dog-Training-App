@@ -6,11 +6,11 @@ namespace PAW_PAW;
 public partial class Dashboard : ContentPage
 {
 
-    public Dashboard ()
+    public Dashboard (DashboardVM vm)
     {
         InitializeComponent();
-       //BindingContext = vm;
-       BindingContext = new DashboardVM();
+        BindingContext = vm;
+      // BindingContext = new DashboardVM();
     }
 
 

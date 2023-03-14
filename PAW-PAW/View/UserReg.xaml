@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="PAW_PAW.UserReg"
              xmlns:viewmodel="clr-namespace:PAW_PAW.ViewModel"
-             x:DataType="viewmodel:UserRegistrationVM"
-             Title=""
+             x:DataType="viewmodel:UserRegistrationVM"     
              >
 
     <VerticalStackLayout Margin="10">
@@ -12,7 +11,7 @@
         <Label Margin="0,15,0,20" HorizontalTextAlignment="Center" FontFamily="SansRegular" FontAttributes="Bold" FontSize="24" Text="Your adventure starts today" LineBreakMode="WordWrap" LineHeight="1.2"/>
 
         <StackLayout Margin="0,20,0,0">
-            <Label Margin="0,15" HorizontalTextAlignment="Start" FontFamily="OpenSansRegular" FontAttributes="Bold" FontSize="14" Text="Please insert your details:"/>
+            <Label Margin="0,15" HorizontalTextAlignment="Start" FontFamily="OpenSansRegular" FontAttributes="Bold" FontSize="14" Text="Please insert your new account details:"/>
             <Label FontFamily="OpenSansRegular" Text="Email" FontSize="14"/>
             <Grid Margin="0,5,0,5">
                 <Frame BackgroundColor="GhostWhite" BorderColor="Black"/>

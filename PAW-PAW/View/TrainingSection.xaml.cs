@@ -8,10 +8,6 @@ public partial class TrainingSection : ContentPage
 		BindingContext = vm;
 	}
 
-    private async void MenuFlyoutItem_7_8Weeks_Clicked(object sender, EventArgs e)
-    {
-        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
-    }
 
     private async void MenuFlyoutItem_8_10Weeks_Clicked(object sender, EventArgs e)
     {
@@ -21,11 +17,15 @@ public partial class TrainingSection : ContentPage
     {
         await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
-    private async void MenuFlyoutItem_12_16Weeks_Clicked(object sender, EventArgs e)
+    private async void MenuFlyoutItem_3_4Months_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }
-    private async void MenuFlyoutItem_6Months_Clicked(object sender, EventArgs e)
+    private async void MenuFlyoutItem_4_6Months_Clicked(object sender, EventArgs e)
+    {
+        await Shell.Current.GoToAsync(nameof(View.TrainingSection));
+    }
+    private async void MenuFlyoutItem_Older_Than_6Months_Clicked(object sender, EventArgs e)
     {
         await Shell.Current.GoToAsync(nameof(View.TrainingSection));
     }

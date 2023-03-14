@@ -8,10 +8,10 @@ public partial class MainPage : ContentPage
 	public MainPage()
 	{
 		 InitializeComponent();
-
+      //  BindingContext= vm;
       BindingContext = new MainViewModel(Navigation);
     }
-
+    /*
 	private async void NewAccount_Button_Clicked(object sender, EventArgs e)
 	{
        // await Shell.Current.Navigation.PushAsync(new UserReg());
@@ -25,6 +25,7 @@ public partial class MainPage : ContentPage
      await  Shell.Current.Navigation.PushAsync(new Dashboard());
 
     }
+    */
 }
 
 

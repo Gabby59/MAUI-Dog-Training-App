@@ -42,9 +42,7 @@
                         Clicked="NewAccount_Button_Clicked"
                         
                         />
-               
-                      
-             
+
             
             <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
                             Text="Go to Dashboard" 
@@ -61,33 +59,36 @@
 
 
     <ScrollView>
-    <VerticalStackLayout Margin="10">
-        <Image Source="logo.jpeg" HeightRequest="300" WidthRequest="550"/>
-        <Label Margin="0,15,0,20" HorizontalTextAlignment="Center" FontFamily="SansRegular" FontAttributes="Bold" FontSize="24" Text="All types of training for all types of dogs" LineBreakMode="WordWrap" LineHeight="1.2"/>
+        <VerticalStackLayout Margin="10">
+            <Image Source="logo.jpeg" HeightRequest="300" WidthRequest="550"/>
+            <Label Margin="0,15,0,20" HorizontalTextAlignment="Center" FontFamily="SansRegular" FontAttributes="Bold" FontSize="24" Text="All types of training for all types of dogs" LineBreakMode="WordWrap" LineHeight="1.2"/>
+
             <StackLayout>
+                <Label  Margin="0,55,0,5" HorizontalTextAlignment="Start" FontFamily="OpenSansRegular" FontAttributes="Bold" FontSize="14" Text="Please sign in with using your user details:"/>
+
                 <Label Margin="0,10,0,5" FontFamily="OpenSansRegular" Text="Email" FontSize="14"/>
-            <Grid>
-                <Frame BackgroundColor="GhostWhite" BorderColor="Black"/>
-                <Entry Margin="3,2" Placeholder="Enter Email" BackgroundColor="Transparent"  FontFamily="OpenSansRegular" FontSize="14" 
+                <Grid>
+                    <Frame BackgroundColor="GhostWhite" BorderColor="Black"/>
+                    <Entry Margin="3,2" Placeholder="Enter Email" BackgroundColor="Transparent"  FontFamily="OpenSansRegular" FontSize="14" 
                            Text="{Binding UserEmail}"/>
-            </Grid>
-            <Label Margin="0,10,0,5" FontFamily="OpenSansRegular" Text="Password" FontSize="14"/>
-            <Grid>
-                <Frame BackgroundColor="GhostWhite" BorderColor="Black"/>
-                <Entry Margin="3,2" Placeholder="Enter Password" BackgroundColor="Transparent" IsPassword="True" FontFamily="OpenSansRegular"
+                </Grid>
+                <Label Margin="0,10,0,5" FontFamily="OpenSansRegular" Text="Password" FontSize="14"/>
+                <Grid>
+                    <Frame BackgroundColor="GhostWhite" BorderColor="Black"/>
+                    <Entry Margin="3,2" Placeholder="Enter Password" BackgroundColor="Transparent" IsPassword="True" FontFamily="OpenSansRegular"
                             Text="{Binding UserPassword}"/>
-            </Grid>
-        </StackLayout>
-        <Button CharacterSpacing="0.5" Margin="0,30,0,5" Text="Sign In" FontFamily="OpenSansRegular" FontAttributes="Bold"
+                </Grid>
+            </StackLayout>
+            <Button CharacterSpacing="0.5" Margin="0,30,0,5" Text="Sign In" FontFamily="OpenSansRegular" FontAttributes="Bold"
                            BackgroundColor="DarkCyan"
                            Command="{Binding SignInButtonCommand}"
                 />
-        <Label FontFamily="OpenSansRegular" Text="Forgot Password" FontSize="10" TextColor="DarkCyan" FlowDirection="RightToLeft"/>
+            <Label FontFamily="OpenSansRegular" Text="Forgot Password" FontSize="10" TextColor="DarkCyan" FlowDirection="RightToLeft"/>
             <Button Margin="0,20,0,5" FontFamily="OpenSansRegular" CharacterSpacing="0.5" Text="NEW here? Create an account" FontAttributes="Bold" 
                         BackgroundColor="Orange" BorderColor="DarkCyan" BorderWidth="2" CornerRadius="10"
                         Command="{Binding SignUpButtonCommand}"
                         />
-        <!--
+            <!--
         <Button Margin="0,15,0,5" FontFamily="OpenSansRegular"
                             Text="Go to Dashboard" 
                             BackgroundColor="DarkCyan"
@@ -100,7 +101,6 @@
                     Command="{Binding ButtonTapCommand}"
                       />
         </VerticalStackLayout>
-
     </ScrollView>
 </ContentPage>
  
